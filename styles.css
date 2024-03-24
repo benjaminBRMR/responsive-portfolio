@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font: "Montserrat";
+    --white-color: #EEF0F2;
+    --black-color: #201A23;
+    --navbar-right-color: #F7F7F7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    filter: invert(1);
+}
+
+.nav-right {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: var(--navbar-right-color);
+    padding: 10px 20px;
+    border-radius: 50px;
+    list-style: none;
+}
+
+.nav-right li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.nav-right li:hover {
+    background-color: #FFFFFF;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.nav-right li:last-child {
+    margin-right: 0px;
+}
+
+.nav-right li a {
+    position: relative;
+    color: var(--black-color);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hamburger-icon {
+    color: var(--black-color);
+    font-size: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* BODY HOVER TEXT */
+
+.text-line {
+    margin-bottom: 10px;
+}
+
+.body {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.body-hover-text {
+    color: #00000010;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.word1 {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.word2 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.word3 {
+    font-size: 175px;
+    font-weight: 500;
+}
+
+.word4 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.word5 {
+    font-size: 125px;
+    font-weight: 800;
+}
+
+.word6 {
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.word7 {
+    font-size: 120px;
+    font-weight: 700;
+}
+
+.word8 {
+    font-size: 175px;
+    font-weight: 400;
+}
+
+.word9 {
+    font-size: 75px;
+    font-weight: 600;
+}
+
+.word10 {
+    font-size: 125px;
+    font-weight: 700;
+}
+
+.word11 {
+    font-size: 75px;
+    font-weight: 600;
+}
+
+.word12 {
+    font-size: 75px;
+    font-weight: 300;
+}
+
+.word13 {
+    font-size:120px;
+    font-weight: 600;
+}
+
+.word14 {
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.word15 {
+    font-size: 150px;
+    font-weight: 500;
+}
+
+.word16 {
+    font-size: 75px;
+    font-weight: 200;
+}
+
+.word17 {
+    font-size: 120px;
+    font-weight: 400;
+}
+
+.word18 {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.word19 {
+    font-size: 75px;
+    font-weight: 200;
+}
+
+.word20 {
+    font-size: 175px;
+    font-weight: 1000;
+}
+
+.word21 {
+    font-size: 75px;
+    font-weight: 300;
+}
+
+.word22 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.word23 {
+    font-size: 125px;
+    font-weight: 100;
+}
+
+.word24 {
+    font-size: 65px;
+    font-weight: 300;
+}
+
+.word25 {
+    font-size: 100px;
+    font-weight: 800;
+}
+
+.word26 {
+    font-size: 100px;
+    font-weight: 200;
+}
+
+.word27 {
+    font-size: 175px;
+    font-weight: 700;
+}
+
+.word28 {
+    font-size: 200px;
+    font-weight:600;
+}
+
+.body-hover-text .word1,
+.body-hover-text .word2,
+.body-hover-text .word3,
+.body-hover-text .word4,
+.body-hover-text .word5,
+.body-hover-text .word6,
+.body-hover-text .word7,
+.body-hover-text .word8,
+.body-hover-text .word9,
+.body-hover-text .word10,
+.body-hover-text .word11,
+.body-hover-text .word12,
+.body-hover-text .word13,
+.body-hover-text .word14,
+.body-hover-text .word15,
+.body-hover-text .word16,
+.body-hover-text .word17,
+.body-hover-text .word18,
+.body-hover-text .word19,
+.body-hover-text .word20,
+.body-hover-text .word21,
+.body-hover-text .word22,
+.body-hover-text .word23,
+.body-hover-text .word24,
+.body-hover-text .word25,
+.body-hover-text .word26,
+.body-hover-text .word27,
+.body-hover-text .word28 {
+    transition: color 0.3s ease;
+}
+
+.body-hover-text .word1:hover {
+    color: #000000;
+}
+
+.body-hover-text .word2:hover {
+    color: #000000;
+}
+
+.body-hover-text .word3:hover {
+    color: #000000;
+}
+
+.body-hover-text .word4:hover {
+    color: #000000;
+}
+
+.body-hover-text .word5:hover {
+    color: #000000;
+}
+
+.body-hover-text .word6:hover {
+    color: #000000;
+}
+
+.body-hover-text .word7:hover {
+    color: #000000;
+}
+
+.body-hover-text .word8:hover {
+    color: #000000;
+}
+
+.body-hover-text .word9:hover {
+    color: #000000;
+}
+
+.body-hover-text .word10:hover {
+    color: #000000;
+}
+
+.body-hover-text .word11:hover {
+    color: #000000;
+}
+
+.body-hover-text .word12:hover {
+    color: #000000;
+}
+
+.body-hover-text .word13:hover {
+    color: #000000;
+}
+
+.body-hover-text .word14:hover {
+    color: #000000;
+}
+
+.body-hover-text .word15:hover {
+    color: #000000;
+}
+
+.body-hover-text .word16:hover {
+    color: #000000;
+}
+
+.body-hover-text .word17:hover {
+    color: #000000;
+}
+
+.body-hover-text .word18:hover {
+    color: #000000;
+}
+
+.body-hover-text .word19:hover {
+    color: #000000;
+}
+
+.body-hover-text .word20:hover {
+    color: #000000;
+}
+
+.body-hover-text .word21:hover {
+    color: #000000;
+}
+
+.body-hover-text .word22:hover {
+    color: #000000;
+}
+
+.body-hover-text .word23:hover {
+    color: #000000;
+}
+
+.body-hover-text .word24:hover {
+    color: #000000;
+}
+
+.body-hover-text .word25:hover {
+    color: #000000;
+}
+
+.body-hover-text .word26:hover {
+    color: #000000;
+}
+
+.body-hover-text .word27:hover {
+    color: #000000;
+}
+
+.body-hover-text .word28:hover {
+    color: #000000;
+}
+
+/* SCROLL BAR */
+
+.smooth-scroll-area {
+	scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.smooth-scroll-area {
+		scroll-behavior: auto;
+	}
+}
